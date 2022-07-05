@@ -2,7 +2,7 @@
 base_url = "https://azathoth1729.github.io"
 # The site title and description; used in feeds by default.
 title = "Azathoth"
-description = ""
+description = "My personal blog site"
 # The default language; used in feeds.
 default_language = "en"
 # The site theme to use.
@@ -137,8 +137,8 @@ include_content = true
 navbar_items = [
   { code = "en", nav_items = [
     { url = "$BASE_URL/", name = "Home" },
-    { url = "$BASE_URL/tags", name = "Tags" },
     { url = "$BASE_URL/posts", name = "Posts" },
+    { url = "$BASE_URL/tags", name = "Tags" },
   ] },
 ]
 
@@ -159,4 +159,4 @@ email = "aa1203528272@gmail.com"
 # Author details
 [extra.author]
 name = "Azathoth"
-avatar = "/images/avatar.png"
+avatar = "/images/warped_tides.jpg"
