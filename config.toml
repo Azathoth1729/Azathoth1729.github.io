@@ -54,7 +54,7 @@ build_search_index = false
 # Configuration of the Markdown rendering
 [markdown]
 # When set to "true", all code blocks are highlighted.
-highlight_code = false
+highlight_code = true
 # A list of directories used to search for additional `.sublime-syntax` files.
 extra_syntaxes = []
 # The theme to use for code highlighting.
@@ -134,11 +134,19 @@ include_content = true
 # author value will be available using {{ config.extra.author }} in templates
 #
 [extra]
+katex.enabled = true
+katex.auto_render = true
+chart.enabled = true
+mermaid.enabled = true
+galleria.enabled = true
+
 navbar_items = [
   { code = "en", nav_items = [
     { url = "$BASE_URL/", name = "Home" },
     { url = "$BASE_URL/posts", name = "Posts" },
+    { url = "$BASE_URL/docs", name = "Docs" },
     { url = "$BASE_URL/tags", name = "Tags" },
+    { url = "$BASE_URL/categories", name = "Categories" },
   ] },
 ]
 
@@ -159,4 +167,4 @@ email = "aa1203528272@gmail.com"
 # Author details
 [extra.author]
 name = "Azathoth"
-avatar = "/images/warped_tides.jpg"
+avatar = "images/warped_tides.jpg"
