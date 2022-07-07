@@ -27,7 +27,7 @@ comments = true
 
 ## 2022-07-05
 
-#### task/ progress
+#### task / progress
 
 - 配置本地rust环境(之前已经配好)
 - 尝试 `gitclassroom`, 使用 `codespace` 进行 `rustlings` 的训练
@@ -38,10 +38,10 @@ comments = true
 
 ## 2022-07-06
 
-#### task/ progress
+#### task / progress
 
-- 第零章：实验环境配置
-- 第一章: 应用程序与基本执行环境(lab0-0)
+- 第零章 实验环境配置
+- 第一章 应用程序与基本执行环境(lab0-0)
 - `rustlings`:
   - `primitive_types`
   - `enums`
@@ -66,7 +66,7 @@ LOG=DEBUG make run
 
 ![test_run](lab0_test_run.png)
 
-#### QA and Thinking
+#### QA / Thinking / Reading
 
 1. 为什么 rust 的 两个宏: `print`/`pringln` 不能被写进`core`而需要写进`std`
 
@@ -82,6 +82,26 @@ LOG=DEBUG make run
   
 ## 2022-07-07
 
-[rust-based-os-comp]: https://github.com/LearningOS/rust-based-os-comp2022
-[mit-6.S081]: https://pdos.csail.mit.edu/6.S081/2021/index.html
-[lab0-guide]: https://learningos.github.io/rust-based-os-comp2022/0setup-devel-env.html
+#### task / progress
+
+- 第二章 批处理系统: 看到最后一节
+- `rustlings`:
+  - `collections`
+  - `error_handling`
+  - `generics`
+  - `modules`
+  - `option`
+  - `standard_library_types`
+  - `strings`
+  - `tests`
+  - `threads`
+  - `traits`
+
+#### QA / Thinking / Reading
+
+1. [rfc of associated items](https://github.com/rust-lang/rfcs/blob/master/text/0195-associated-items.md#summary)
+2. [git conventional commits](https://www.conventionalcommits.org)
+
+[rust-based-os-comp]: <https://github.com/LearningOS/rust-based-os-comp2022>
+[mit-6.S081]: <https://pdos.csail.mit.edu/6.S081/2021/index.html>
+[lab0-guide]: <https://learningos.github.io/rust-based-os-comp2022/0setup-devel-env.html>

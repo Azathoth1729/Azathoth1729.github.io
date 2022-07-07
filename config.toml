@@ -139,12 +139,10 @@ katex.auto_render = true
 chart.enabled = true
 mermaid.enabled = true
 galleria.enabled = true
-
 navbar_items = [
   { code = "en", nav_items = [
     { url = "$BASE_URL/", name = "Home" },
     { url = "$BASE_URL/posts", name = "Posts" },
-    { url = "$BASE_URL/docs", name = "Docs" },
     { url = "$BASE_URL/tags", name = "Tags" },
     { url = "$BASE_URL/categories", name = "Categories" },
   ] },
@@ -168,3 +166,6 @@ email = "aa1203528272@gmail.com"
 [extra.author]
 name = "Azathoth"
 avatar = "images/warped_tides.jpg"
+
+[extra.commenting]
+utterances = true
