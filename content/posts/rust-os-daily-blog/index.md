@@ -1,5 +1,5 @@
 +++
-title="rust-os-daily-blog"
+title="rust os daily blog"
 date=2022-07-05
 
 [taxonomies]
@@ -27,7 +27,7 @@ comments = true
 
 ## 2022-07-05
 
-#### task / progress
+#### Task / Progress
 
 - 配置本地rust环境(之前已经配好)
 - 尝试 `gitclassroom`, 使用 `codespace` 进行 `rustlings` 的训练
@@ -38,7 +38,7 @@ comments = true
 
 ## 2022-07-06
 
-#### task / progress
+#### Task / Progress
 
 - 第零章 实验环境配置
 - 第一章 应用程序与基本执行环境(lab0-0)
@@ -51,9 +51,10 @@ comments = true
 
 [第零章：实验环境配置][lab0-guide]
 
-由于我之前学习过mit的 [6.S081][mit-6.S081], qemu已经装好([mit 6.S081的安装指引](https://pdos.csail.mit.edu/6.S081/2021/tools.html))
-> 通过命令:`qemu-riscv64 -version`, 可以看出`qemu`的版本
-> 此外, 我用的是`manjaro`(一个基于`arch linux`的linux发行版),所以qemu版本较新,符合实验要求.
+由于我之前接触过mit的 [6.S081][mit-6.S081], qemu已经装好([mit 6.S081的安装指引](https://pdos.csail.mit.edu/6.S081/2021/tools.html))
+> 通过命令:`qemu-riscv64 -version`, 可以看出`qemu`的版本.
+>
+> 此外, 我用的是`manjaro`(一个基于`arch linux`的linux发行版),所以`qemu`版本较新,符合实验要求.
 
 根据文档,clone仓库, 运行
 
@@ -82,7 +83,7 @@ LOG=DEBUG make run
   
 ## 2022-07-07
 
-#### task / progress
+#### Task / Progress
 
 - 第二章 批处理系统: 看到最后一节
 - `rustlings`:
@@ -102,6 +103,40 @@ LOG=DEBUG make run
 1. [rfc of associated items](https://github.com/rust-lang/rfcs/blob/master/text/0195-associated-items.md#summary)
 2. [git conventional commits](https://www.conventionalcommits.org)
 
+## 2022-07-08
+
+rustlings终于写完了..
+
+`macros`这部分的练习出的有点敷衍 😂
+
+感觉要看懂rCore tutorial, 修改它的代码, 还得学点 `unsafe rust`,
+只做 `rustlings` 和一些常规的练习感觉完全不够啊
+
+#### Task / Progress
+
+- 看完第二章,开始看第三章(感觉汇编部分还是有点吃力,看来得好好学下riscv了)
+- 看了下 [writing an OS in rust][writing-rust-os]
+- 完成 `rustlings`
+![complete_rustlings](complete_rustlings.png)
+
+#### QA / Thinking / Reading
+
+1. [mut self and self](https://www.reddit.com/r/rust/comments/47d097/comment/d0d58fv/?utm_source=share&utm_medium=web2x&1.context=3)
+2. [writing an OS in rust][writing-rust-os]
+
+## 2022-07-09
+
+#### Task / Progress
+
+#### QA / Thinking / Reading
+
+## 2022-07-010
+
+#### Task / Progress
+
+#### QA / Thinking / Reading
+
 [rust-based-os-comp]: <https://github.com/LearningOS/rust-based-os-comp2022>
 [mit-6.S081]: <https://pdos.csail.mit.edu/6.S081/2021/index.html>
 [lab0-guide]: <https://learningos.github.io/rust-based-os-comp2022/0setup-devel-env.html>
+[writing-rust-os]: <https://os.phil-opp.com>

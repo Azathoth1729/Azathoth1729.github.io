@@ -1,5 +1,5 @@
 +++
-title="rust-based-os-comp-guide"
+title="rust based os comp guide(WIP)"
 date=2022-07-06
 
 [taxonomies]
