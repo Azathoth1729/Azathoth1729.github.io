@@ -1,5 +1,5 @@
 +++
-title="rust os daily blog"
+title="rust os comp's daily blog"
 date=2022-07-05
 
 [taxonomies]
@@ -13,6 +13,8 @@ comments = true
 
 > rust 好好好!
 
+# Intro
+
 这里是我学习[rust-based-os-comp][rust-based-os-comp]的一个日常记录
 
 <!-- more -->
@@ -25,7 +27,7 @@ comments = true
 
 由于我看到训练营的通知较晚，导致我在最后一天才了解这个项目，又因为这几天还在学校实习，所以可能最近几天进度比较慢.
 
-## 2022-07-05
+## 2022-07-05 (day 1)
 
 #### Task / Progress
 
@@ -36,7 +38,7 @@ comments = true
   - `functions`
   - `move_semantics`
 
-## 2022-07-06
+## 2022-07-06 (day 2)
 
 #### Task / Progress
 
@@ -81,7 +83,7 @@ LOG=DEBUG make run
 
 4. [What is a real world example of using a unit struct?](https://stackoverflow.com/questions/67689613/what-is-a-real-world-example-of-using-a-unit-struct)
   
-## 2022-07-07
+## 2022-07-07 (day 3)
 
 #### Task / Progress
 
@@ -103,7 +105,7 @@ LOG=DEBUG make run
 1. [rfc of associated items](https://github.com/rust-lang/rfcs/blob/master/text/0195-associated-items.md#summary)
 2. [git conventional commits](https://www.conventionalcommits.org)
 
-## 2022-07-08
+## 2022-07-08 (day 4)
 
 rustlings终于写完了..
 
@@ -124,13 +126,21 @@ rustlings终于写完了..
 1. [mut self and self](https://www.reddit.com/r/rust/comments/47d097/comment/d0d58fv/?utm_source=share&utm_medium=web2x&1.context=3)
 2. [writing an OS in rust][writing-rust-os]
 
-## 2022-07-09
+## 2022-07-09 (day 5)
+
+今天不太想做lab...
 
 #### Task / Progress
 
+- 继续看 [writing an OS in rust][writing-rust-os]
+- 看了一点[The Rustonomicon][Rustonomicon]
+
 #### QA / Thinking / Reading
 
-## 2022-07-010
+1. [writing an OS in rust][writing-rust-os]
+2. [The Rustonomicon][Rustonomicon]
+
+## 2022-07-10 (day 6)
 
 #### Task / Progress
 
@@ -140,3 +150,4 @@ rustlings终于写完了..
 [mit-6.S081]: <https://pdos.csail.mit.edu/6.S081/2021/index.html>
 [lab0-guide]: <https://learningos.github.io/rust-based-os-comp2022/0setup-devel-env.html>
 [writing-rust-os]: <https://os.phil-opp.com>
+[Rustonomicon]: <https://doc.rust-lang.org/nomicon>
