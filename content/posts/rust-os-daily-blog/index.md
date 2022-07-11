@@ -142,7 +142,19 @@ rustlings终于写完了..
 
 ## 2022-07-10 (day 6)
 
+今天好像没干啥...
+
 #### Task / Progress
+
+- 看了一下 [too-many-linked-lists][too-many-linked-lists]
+
+#### QA / Thinking / Reading
+
+## 2022-07-10 (day 7)
+
+#### Task / Progress
+
+-
 
 #### QA / Thinking / Reading
 
@@ -151,3 +163,4 @@ rustlings终于写完了..
 [lab0-guide]: <https://learningos.github.io/rust-based-os-comp2022/0setup-devel-env.html>
 [writing-rust-os]: <https://os.phil-opp.com>
 [Rustonomicon]: <https://doc.rust-lang.org/nomicon>
+[too-many-linked-lists]: <https://rust-unofficial.github.io/too-many-lists>
