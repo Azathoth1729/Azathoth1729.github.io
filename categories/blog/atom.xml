@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Azathoth - Blog</title>
+	<subtitle>My personal blog site</subtitle>
+	<link href="https://azathoth1729.github.io/categories/blog/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://azathoth1729.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-07-05T00:00:00+00:00</updated>
+	<id>https://azathoth1729.github.io/categories/blog/atom.xml</id>
+	<entry xml:lang="en">
+		<title>rust os comp&#x27;s daily blog</title>
+		<published>2022-07-05T00:00:00+00:00</published>
+		<updated>2022-07-05T00:00:00+00:00</updated>
+		<link href="https://azathoth1729.github.io/posts/rust-os-daily-blog/" type="text/html"/>
+		<id>https://azathoth1729.github.io/posts/rust-os-daily-blog/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;rust 好好好!&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h1 id=&quot;intro&quot;&gt;Intro&lt;&#x2F;h1&gt;
+&lt;p&gt;这里是我学习&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;LearningOS&#x2F;rust-based-os-comp2022&quot;&gt;rust-based-os-comp&lt;&#x2F;a&gt;的一个日常记录&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;我的个人实验环境配置:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;azathoth1729.github.io&#x2F;posts&#x2F;rust-os-daily-blog&#x2F;screenfetch.png&quot; alt=&quot;sf&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;blog&quot;&gt;Blog&lt;&#x2F;h1&gt;
+&lt;p&gt;由于我看到训练营的通知较晚，导致我在最后一天才了解这个项目，又因为这几天还在学校实习，所以可能最近几天进度比较慢.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;2022-07-05-day-1&quot;&gt;2022-07-05 (day 1)&lt;&#x2F;h2&gt;
+&lt;h4 id=&quot;task-progress&quot;&gt;Task &#x2F; Progress&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;配置本地rust环境(之前已经配好)&lt;&#x2F;li&gt;
+&lt;li&gt;尝试 &lt;code&gt;gitclassroom&lt;&#x2F;code&gt;, 使用 &lt;code&gt;codespace&lt;&#x2F;code&gt; 进行 &lt;code&gt;rustlings&lt;&#x2F;code&gt; 的训练&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;rustlings&lt;&#x2F;code&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;variables&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;functions&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;move_semantics&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;2022-07-06-day-2&quot;&gt;2022-07-06 (day 2)&lt;&#x2F;h2&gt;
+&lt;h4 id=&quot;task-progress-1&quot;&gt;Task &#x2F; Progress&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;第零章 实验环境配置&lt;&#x2F;li&gt;
+&lt;li&gt;第一章 应用程序与基本执行环境(lab0-0)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;rustlings&lt;&#x2F;code&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;primitive_types&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;enums&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;structs&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;shi-yan-huan-jing-pei-zhi&quot;&gt;实验环境配置&lt;&#x2F;h4&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;learningos.github.io&#x2F;rust-based-os-comp2022&#x2F;0setup-devel-env.html&quot;&gt;第零章：实验环境配置&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;由于我之前接触过mit的 &lt;a href=&quot;https:&#x2F;&#x2F;pdos.csail.mit.edu&#x2F;6.S081&#x2F;2021&#x2F;index.html&quot;&gt;6.S081&lt;&#x2F;a&gt;, qemu已经装好(&lt;a href=&quot;https:&#x2F;&#x2F;pdos.csail.mit.edu&#x2F;6.S081&#x2F;2021&#x2F;tools.html&quot;&gt;mit 6.S081的安装指引&lt;&#x2F;a&gt;)&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;通过命令:&lt;code&gt;qemu-riscv64 -version&lt;&#x2F;code&gt;, 可以看出&lt;code&gt;qemu&lt;&#x2F;code&gt;的版本.&lt;&#x2F;p&gt;
+&lt;p&gt;此外, 我用的是&lt;code&gt;manjaro&lt;&#x2F;code&gt;(一个基于&lt;code&gt;arch linux&lt;&#x2F;code&gt;的linux发行版),所以&lt;code&gt;qemu&lt;&#x2F;code&gt;版本较新,符合实验要求.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;根据文档,clone仓库, 运行&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;cd&lt;&#x2F;span&gt;&lt;span&gt; os1
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;LOG&lt;&#x2F;span&gt;&lt;span&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;DEBUG &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;make&lt;&#x2F;span&gt;&lt;span&gt; run
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;成功获得输出:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;azathoth1729.github.io&#x2F;posts&#x2F;rust-os-daily-blog&#x2F;lab0_test_run.png&quot; alt=&quot;test_run&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;qa-thinking-reading&quot;&gt;QA &#x2F; Thinking &#x2F; Reading&lt;&#x2F;h4&gt;
+&lt;ol&gt;
+&lt;li&gt;为什么 rust 的 两个宏: &lt;code&gt;print&lt;&#x2F;code&gt;&#x2F;&lt;code&gt;pringln&lt;&#x2F;code&gt; 不能被写进&lt;code&gt;core&lt;&#x2F;code&gt;而需要写进&lt;code&gt;std&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;By default, all Rust crates link the standard library, which depends on the operating system for features such as threads, files, or networking. It also depends on the C standard library libc, which closely interacts with OS services. Since our plan is to write an operating system, we can not use any OS-dependent libraries. So we have to disable the automatic inclusion of the standard library through the no_std attribute.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;为了打印到标准输出, 需要与内核进行交互, 因此必然与所在平台有关&lt;&#x2F;p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;为什么rust的&lt;code&gt;core&lt;&#x2F;code&gt; libarary能做到 platform-agnostic.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;stackoverflow.com&#x2F;questions&#x2F;51832396&#x2F;why-does-rust-have-a-never-primitive-type&quot;&gt;Why does Rust have a &amp;quot;Never&amp;quot; primitive type?&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;stackoverflow.com&#x2F;questions&#x2F;67689613&#x2F;what-is-a-real-world-example-of-using-a-unit-struct&quot;&gt;What is a real world example of using a unit struct?&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h2 id=&quot;2022-07-07-day-3&quot;&gt;2022-07-07 (day 3)&lt;&#x2F;h2&gt;
+&lt;h4 id=&quot;task-progress-2&quot;&gt;Task &#x2F; Progress&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;第二章 批处理系统: 看到最后一节&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;rustlings&lt;&#x2F;code&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;collections&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;error_handling&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;generics&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;modules&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;option&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;standard_library_types&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;strings&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;tests&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;threads&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;traits&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;qa-thinking-reading-1&quot;&gt;QA &#x2F; Thinking &#x2F; Reading&lt;&#x2F;h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;rust-lang&#x2F;rfcs&#x2F;blob&#x2F;master&#x2F;text&#x2F;0195-associated-items.md#summary&quot;&gt;rfc of associated items&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.conventionalcommits.org&quot;&gt;git conventional commits&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h2 id=&quot;2022-07-08-day-4&quot;&gt;2022-07-08 (day 4)&lt;&#x2F;h2&gt;
+&lt;p&gt;rustlings终于写完了..&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;macros&lt;&#x2F;code&gt;这部分的练习出的有点敷衍 😂&lt;&#x2F;p&gt;
+&lt;p&gt;感觉要看懂rCore tutorial, 修改它的代码, 还得学点 &lt;code&gt;unsafe rust&lt;&#x2F;code&gt;,
+只做 &lt;code&gt;rustlings&lt;&#x2F;code&gt; 和一些常规的练习感觉完全不够啊&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;task-progress-3&quot;&gt;Task &#x2F; Progress&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;看完第二章,开始看第三章(感觉汇编部分还是有点吃力,看来得好好学下riscv了)&lt;&#x2F;li&gt;
+&lt;li&gt;看了下 &lt;a href=&quot;https:&#x2F;&#x2F;os.phil-opp.com&quot;&gt;writing an OS in rust&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;完成 &lt;code&gt;rustlings&lt;&#x2F;code&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;azathoth1729.github.io&#x2F;posts&#x2F;rust-os-daily-blog&#x2F;complete_rustlings.png&quot; alt=&quot;complete_rustlings&quot; &#x2F;&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;qa-thinking-reading-2&quot;&gt;QA &#x2F; Thinking &#x2F; Reading&lt;&#x2F;h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;rust&#x2F;comments&#x2F;47d097&#x2F;comment&#x2F;d0d58fv&#x2F;?utm_source=share&amp;amp;utm_medium=web2x&amp;amp;1.context=3&quot;&gt;mut self and self&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;os.phil-opp.com&quot;&gt;writing an OS in rust&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h2 id=&quot;2022-07-09-day-5&quot;&gt;2022-07-09 (day 5)&lt;&#x2F;h2&gt;
+&lt;p&gt;今天不太想做lab...&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;task-progress-4&quot;&gt;Task &#x2F; Progress&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;继续看 &lt;a href=&quot;https:&#x2F;&#x2F;os.phil-opp.com&quot;&gt;writing an OS in rust&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;看了一点&lt;a href=&quot;https:&#x2F;&#x2F;doc.rust-lang.org&#x2F;nomicon&quot;&gt;The Rustonomicon&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;qa-thinking-reading-3&quot;&gt;QA &#x2F; Thinking &#x2F; Reading&lt;&#x2F;h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;os.phil-opp.com&quot;&gt;writing an OS in rust&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;doc.rust-lang.org&#x2F;nomicon&quot;&gt;The Rustonomicon&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h2 id=&quot;2022-07-10-day-6&quot;&gt;2022-07-10 (day 6)&lt;&#x2F;h2&gt;
+&lt;p&gt;今天好像没干啥...&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;task-progress-5&quot;&gt;Task &#x2F; Progress&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;看了一下 &lt;a href=&quot;https:&#x2F;&#x2F;rust-unofficial.github.io&#x2F;too-many-lists&quot;&gt;too-many-linked-lists&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;qa-thinking-reading-4&quot;&gt;QA &#x2F; Thinking &#x2F; Reading&lt;&#x2F;h4&gt;
+&lt;h2 id=&quot;2022-07-11-day-7&quot;&gt;2022-07-11 (day 7)&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;2022-07-12-day-8&quot;&gt;2022-07-12 (day 8)&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;2022-07-13-day-9&quot;&gt;2022-07-13 (day 9)&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;2022-07-14-day-10&quot;&gt;2022-07-14 (day 10)&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;2022-07-15-day-11&quot;&gt;2022-07-15 (day 11)&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;2022-07-16-day-12&quot;&gt;2022-07-16 (day 12)&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;2022-07-17-day-13&quot;&gt;2022-07-17 (day 13)&lt;&#x2F;h2&gt;
+</content>
+	</entry>
+</feed>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Azathoth - Reference</title>
+	<subtitle>My personal blog site</subtitle>
+	<link href="https://azathoth1729.github.io/categories/reference/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://azathoth1729.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-07-09T00:00:00+00:00</updated>
+	<id>https://azathoth1729.github.io/categories/reference/atom.xml</id>
+	<entry xml:lang="en">
+		<title>rust learning resources</title>
+		<published>2022-07-09T00:00:00+00:00</published>
+		<updated>2022-07-09T00:00:00+00:00</updated>
+		<link href="https://azathoth1729.github.io/posts/rust-learning-resources/" type="text/html"/>
+		<id>https://azathoth1729.github.io/posts/rust-learning-resources/</id>
+		<content type="html">&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;&#x2F;h2&gt;
+&lt;p&gt;这里是我个人整合的一些rust学习资源&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;cheats.rs&quot;&gt;Rust Cheat Sheet&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;lists-of-resources&quot;&gt;Lists of resources&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;rust-unofficial&#x2F;awesome-rust&quot;&gt;Awesome Rust&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;codecrafters-io&#x2F;build-your-own-x&quot;&gt;Build your own X&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;practical-tutorials&#x2F;project-based-learning#rust&quot;&gt;Project Based Learning&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;courses&quot;&gt;Courses&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;web.stanford.edu&#x2F;class&#x2F;cs110l&#x2F;&quot;&gt;CS 110L: Safety in Systems Programming&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;learning-tutorial-book&quot;&gt;Learning Tutorial &#x2F; Book&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;rust-unofficial.github.io&#x2F;patterns&quot;&gt;Rust Design Patterns&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;doc.rust-lang.org&#x2F;nomicon&quot;&gt;The Rustonomicon&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;course.rs&#x2F;about-book.html&quot;&gt;rust 语言圣经&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;os.phil-opp.com&quot;&gt;writing an OS in rust&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;rust-unofficial.github.io&#x2F;too-many-lists&quot;&gt;Learn Rust With Entirely Too Many Linked Lists&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;createlang.rs&quot;&gt;Create Your Own Programming Language with Rust&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;veykril.github.io&#x2F;tlborm&quot;&gt;The Little Book of Rust Macros&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;learning-project&quot;&gt;Learning Project&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;picklenerd.github.io&#x2F;pngme_book&quot;&gt;PNGme: An Intermediate Rust Project&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;pingcap&#x2F;talent-plan#series-2-rust-programming&quot;&gt;Talent Plan Courses for rust&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;exercises&quot;&gt;Exercises&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;rust-lang&#x2F;rustlings&quot;&gt;rustlings&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;exercism.org&#x2F;tracks&#x2F;rust&#x2F;exercises?&quot;&gt;exercism for rust&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;crates-porduction-project&quot;&gt;Crates &#x2F; Porduction project&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;blogs-talks&quot;&gt;Blogs &#x2F; Talks&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;pretzelhammer&#x2F;rust-blog&quot;&gt;pretzelhammer&#x27;s Rust blog&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;videos&quot;&gt;Videos&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;c&#x2F;JonGjengset&quot;&gt;Jon Gjengset&#x27;s YouTube channel&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;qa-in-stack-overflow&quot;&gt;QA in Stack Overflow&lt;&#x2F;h3&gt;
+</content>
+	</entry>
+</feed>
