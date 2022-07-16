@@ -11,7 +11,6 @@ toc = true
 comments = true
 +++
 
-
 ## Intro
 
 这里是我个人整合的一些rust学习资源
@@ -55,6 +54,8 @@ comments = true
 + [pretzelhammer's Rust blog][pretzelhammer-rust-blog]
 
 ### Videos
+
++ [Jon Gjengset's YouTube channel](https://www.youtube.com/c/JonGjengset)
 
 ### QA in Stack Overflow
 

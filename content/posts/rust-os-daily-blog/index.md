@@ -150,13 +150,19 @@ rustlings终于写完了..
 
 #### QA / Thinking / Reading
 
-## 2022-07-10 (day 7)
+## 2022-07-11 (day 7)
 
-#### Task / Progress
+## 2022-07-12 (day 8)
 
--
+## 2022-07-13 (day 9)
 
-#### QA / Thinking / Reading
+## 2022-07-14 (day 10)
+
+## 2022-07-15 (day 11)
+
+## 2022-07-16 (day 12)
+
+## 2022-07-17 (day 13)
 
 [rust-based-os-comp]: <https://github.com/LearningOS/rust-based-os-comp2022>
 [mit-6.S081]: <https://pdos.csail.mit.edu/6.S081/2021/index.html>
